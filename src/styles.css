@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Goldman', cursive;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(151deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    color: black !important;
+}
+
+hr {
+    border-color: white;
+}
+
+.puntero {
+    cursor: pointer;
+}
+
+.img-circle {
+    border-radius: 100%;
+    width: 10rem;
+    border: thick;
+}
+
+.card-title,
+.card-text {
+    color: black;
+}
+
+.badge {
+    margin-left: 5px;
+}
+
+.btn-outline-success {
+    margin-left: 5px;
+}
+
+.img-thumb {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
